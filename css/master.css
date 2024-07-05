@@ -19,7 +19,7 @@ body {
 }
 
 .carousel-item {
-  height: 47rem;
+  height: 35em;
   text-align: center;
   background: linear-gradient(to right, var(--main-bg-color), var(--accent-color1) 25% 75%,var(--main-bg-color));
 }
