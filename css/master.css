@@ -1,0 +1,53 @@
+:root {
+  --main-color: #94A684;
+  --accent-color1: #AEC3AE;
+  --accent-color2: #E4E4D0;
+  --main-bg-color: #FFEEF4;
+  --accent-bg-color: #07661A;
+}
+body {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  text-shadow: 2px 2px 5px var(--accent-color1);
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 47rem;
+  text-align: center;
+  background: linear-gradient(to right, var(--main-bg-color), var(--accent-color1) 25% 75%,var(--main-bg-color));
+}
+
+.carousel-caption>p {
+  background-color: rgba(148, 166, 132, 0.2);
+  border-radius: 5px;
+  padding: 0.5em;
+  display: inline-block;
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.divider {
+  width: 100%;
+  height: 3rem;
+  background-color: var(--accent-color2);
+  border: solid var(--accent-bg-color);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em var(--accent-color2), inset 0 .125em .5em var(--accent-bg-color);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.text-secondary {
+  color: var(--accent-color2) !important;
+}
