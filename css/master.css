@@ -22,7 +22,8 @@ body {
   background-repeat:   no-repeat;
   background-position: center top;   
   background-clip: border-box;
-  height: 45rem;
+  height: 100vh;
+  min-height: 45rem;
   position:relative;
 }
 
@@ -45,7 +46,8 @@ body {
   background-repeat:   no-repeat;
   background-position: center center;   
   background-clip: border-box;
-  height: 42rem;
+  height: 100vh;
+  min-height: 42rem;
   position:relative;
 }
 
@@ -73,6 +75,7 @@ body {
 }
 
 .carousel-item {
+  height: 85vh;
   min-height: 40rem;
   text-align: center;
   background-size: cover;
