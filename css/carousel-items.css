@@ -1,0 +1,49 @@
+#carousel-1 {
+  background-image: url(../media/imgs/tiny_ormoc.jpg);
+  background-position: center center;   
+}
+
+#carousel-2 {
+  background-image: url(../media/imgs/first_valentines.jpg);
+  background-position: center center;   
+}
+
+#carousel-3 {
+  background-image: url(../media/imgs/barili.jpg);
+  background-position: right center;   
+}
+
+#carousel-4 {
+  background-image: url(../media/imgs/lockdown.jpg);
+  background-position: center center;   
+}
+
+#carousel-5 {
+  background-image: url(../media/imgs/ruruk_motocamp.jpg);
+  background-position: center center;   
+}
+
+#carousel-6 {
+  background-image: url(../media/imgs/bantayan.jpg);
+  background-position: left center;   
+}
+
+#carousel-7 {
+  background-image: url(../media/imgs/leyte.jpg);
+  background-position: center center;   
+}
+
+#carousel-8 {
+  background-image: url(../media/imgs/bacolod.jpg);
+  background-position: center center;   
+}
+
+#carousel-9 {
+  background-image: url(../media/imgs/dinagat.jpg);
+  background-position: center center;   
+}
+
+#carousel-10 {
+  background-image: url(../media/imgs/el_nido.jpg);
+  background-position: center center;   
+}
