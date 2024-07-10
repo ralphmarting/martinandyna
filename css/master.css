@@ -30,6 +30,7 @@ body {
 #heading>div {
   position: absolute;
   width: 70%;
+  max-width: 50vh;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -37,10 +38,15 @@ body {
   bottom: 4em;
 }
 
+#main-logo {
+  width: 100%;
+  max-width: 50vh;
+}
+
 #wed-details {
   background-image: linear-gradient(
-                      rgba(148, 166, 132, 0.1),
-                      rgba(228, 228, 208, 0.25)),
+                      rgba(228, 228, 208, 0.2),
+                      rgba(75, 75, 250, 0.15)),
                       url(../media/imgs/dinagat_view.jpg);
   background-size:     cover;
   background-repeat:   no-repeat;
@@ -54,6 +60,7 @@ body {
 #wed-details>div {
   position: absolute;
   width: 50%;
+  max-width: 40vh;
   right: 2em;
   top: 4em;
 }
